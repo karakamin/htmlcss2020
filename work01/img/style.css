@@ -56,7 +56,6 @@ table {
   box-sizing: border-box;
 }
 body {
-  font-size: 16px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
     line-height: 36px;
@@ -73,39 +72,32 @@ h1, img {
 h2 {
   font-size: 32px;
   line-height: 43px;
-  margin-bottom: 16px;
 }
 h2 span {
   font-size: 24px;
   color: #a00404;
   margin-left: 16px;
 }
-ul {
-  margin-bottom: 24px;
+h3{
+  font-size: 24px;
 }
+
 p {
   font-size: 20px;
 }
-
+a{
+  text-decoration:none;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
 }
-/* .header h1 {
-  line-height: 94px;
-  border-bottom: 2px solid #000000;
-  padding-bottom: 17px;
-} */
 
 .contenct h2 {
   border-bottom: 1px solid gray;
 }
  .info{
   margin-bottom: 72px;
-}
-.edu-list li, .work-list li,
-.work-first{
-  margin-bottom: 24px;
 }
 .bluebk, .contact-footer {
   background-color: #415165;
@@ -114,26 +106,22 @@ p {
   padding-bottom: 36px;
   text-align: center;  /*父層置中*/
 }
-.bluebk h2 {
-  text-align: center;
-}
+
 .bluebk span, .contact-footer span{
   color: #ffffff;
 }
 
-.bluebk ul{
-    display: inline-block;
-    margin: 0 auto;  /*用以讓 ul 置中*/
-    padding-left: 24px;
-}
-
 .skill{
   line-height: 45px;
-  margin-bottom: 40px;
   border-bottom: 1px solid #ffffff;
 }
-.info-list, .edu-list, .skill-list, .work-title,
-.work-list, .footer-list{
+.skill-list{
+  display: inline-block;
+  margin: 0 auto;  /*用以讓 ul 置中*/
+  padding-left: 24px;
+}
+.info-list, .edu-list, .skill-list, 
+.footer-list{
   font-size: 24px;
 }
 .skill-list, .work-info{
@@ -149,23 +137,26 @@ p {
 .bluebk .skill-list {
     text-align: left;
   }
-  .work-info,
-  .work-first, .work-other {
-    margin-left: 24px;
+  .work-info {
+    width: 642px;
+    line-height: 30px;
   }
-.work-first{
-  width: 642px;
-  line-height: 30px;
+  .work-info,
+  .work-list {
+  margin-left: 24px;
 }
-.contact-footer h2{
+.contact-footer h2 {
   border-bottom: 1px solid #ffffff;
   padding-bottom: 8px;
-  margin-bottom: 32px;
 
 }
-.footer-list li{
-  margin-bottom: 16px;
+.footer-link {
+  color: #ffffff;
 }
+.footer-link:hover {
+  color: #c2c2c5;
+}
+
 .footer-list img {
   margin-right: 24px;
 }
@@ -173,4 +164,21 @@ p {
 .mb-1{
   margin-bottom: 8px;
 }
-
+.mb-2 {
+  margin-bottom: 16px;
+}
+.mb-3 {
+  margin-bottom: 24px;
+}
+.mb-4{
+  margin-bottom: 32px;
+}
+.mb-5 {
+  margin-bottom: 40px;
+}
+.mb-6 {
+  margin-bottom: 48px;
+}
+.text-center {
+  text-align: center;
+}
