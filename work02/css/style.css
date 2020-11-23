@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--- css reset end ---*/
+
+/*--- style start ---*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+}
+h2 {
+	font-size: 64px;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+  }
+  
+.top-info{
+	height: 958px;
+	background: url("../img/banner_top.png") no-repeat center;
+	background-size: cover;
+	border: 1px solid #707070;
+}
+
+.about-list li:last-child {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 24px;
+}
+
+.about-skill li:before{
+	content: "";
+	width: 22px;
+    height: 22px;
+    background-color: #891818;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.d-flex{ 
+	display: flex;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+.justify-content-between {
+	justify-content: between;
+}
+
+.align-items-center{
+	align-items: center;
+}
+.fz-20 {
+	font-size: 20px;
+}
+.fz-24 {
+	font-size: 24px;
+}
+.lh-1-5 {
+	line-height: 1.5;
+}
+.lh-2{
+	line-height: 2;
+}
+.font-weight-bolder { 
+	font-weight: bolder;
+}
+.font-style-italic { 
+	font-style: italic;
+}
+.text-white { 
+	color: white;
+}
+.text-center {
+	text-align: center;
+}
+
+.bg-black {
+	background-color: #000;
+}
+.mr-2 {
+	margin-right: 16px;
+}
+.mr-3 {
+	margin-right: 24px;
+}
+.mb-1 {
+	margin-bottom: 8px;
+}
+.mb-2 {
+	margin-bottom: 16px;
+}
+.mb-3 {
+	margin-bottom: 24px;
+}
+.mb-4 {
+	margin-bottom: 32px;
+}
+.mb-5 {
+	margin-bottom: 40px;
+}
+.mb-6 {
+	margin-bottom: 48px;
+}
+.mb-7 {
+	margin-bottom: 56px;
+}
+.mb-8 {
+	margin-bottom: 64px;
+}
+
+.pt-8 {
+	padding-top: 64px;
+}
+
+.pb-1 {
+	padding-bottom: 8px;
+}
+.pb-3  {
+	padding-bottom: 24px;
+}
+.pb-8 {
+	padding-bottom: 64px;
+}
+.pb-20 {
+	padding-bottom: 160px;
+}
