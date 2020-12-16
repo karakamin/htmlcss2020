@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*--- css reset end ---*/
+
+/*--- style start ---*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    line-height: 36px;
+}
+h1 {
+  font-size: 80px;
+  line-height: 94px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 17px;
+}
+h1, img {
+  margin-bottom: 48px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 43px;
+}
+h2 span {
+  font-size: 24px;
+  color: #a00404;
+  margin-left: 16px;
+}
+h3{
+  font-size: 24px;
+}
+
+p {
+  font-size: 20px;
+}
+a{
+  text-decoration:none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contenct h2 {
+  border-bottom: 1px solid gray;
+}
+ .info{
+  margin-bottom: 72px;
+}
+.bluebk, .contact-footer {
+  background-color: #415165;
+  color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 36px;
+  text-align: center;  /*父層置中*/
+}
+
+.bluebk span, .contact-footer span{
+  color: #ffffff;
+}
+
+.skill{
+  /* line-height: 45px; */
+  border-bottom: 1px solid #ffffff;
+}
+.skill-list{
+  display: inline-block;
+  margin: 0 auto;  /*用以讓 ul 置中*/
+  padding-left: 24px;
+}
+.info-list, .edu-list, .skill-list, 
+.footer-list{
+  font-size: 24px;
+}
+.skill-list, .work-info{
+  border-left: 1px solid #96A9C4;
+}
+.skill-list li{
+  margin-bottom: 20px;
+}
+.skill-list li:last-child, .work-list li:last-child,
+.work-list{
+  margin-bottom: 0px;
+}
+.bluebk .skill-list {
+    text-align: left;
+  }
+  .work-info {
+    width: 642px;
+    line-height: 30px;
+  }
+  .work-info,
+  .work-list {
+  margin-left: 24px;
+}
+.contact-footer h2 {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 8px;
+
+}
+.footer-link {
+  color: #ffffff;
+}
+.footer-link:hover {
+  color: #c2c2c5;
+}
+
+.footer-list img {
+  margin-right: 24px;
+}
+
+.mb-1{
+  margin-bottom: 8px;
+}
+.mb-2 {
+  margin-bottom: 16px;
+}
+.mb-3 {
+  margin-bottom: 24px;
+}
+.mb-4{
+  margin-bottom: 32px;
+}
+.mb-5 {
+  margin-bottom: 40px;
+}
+.mb-6 {
+  margin-bottom: 48px;
+}
+.text-center {
+  text-align: center;
+}
