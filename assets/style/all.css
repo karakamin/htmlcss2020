@@ -1256,6 +1256,10 @@ textarea:focus::placeholder {
 .bg-img {
   background-image: url("../images/bg.png"); }
 
+.px-30 {
+  padding-right: 30px;
+  padding-left: 30px; }
+
 .list-img {
   max-width: 60%; }
 
