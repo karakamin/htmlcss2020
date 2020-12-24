@@ -1,0 +1,31 @@
+@each $key, $value in $direction {
+    @for $i from 0 through 20 {
+      $calc: $i * 0.25rem;
+      .p#{$key}-#{$i} {
+        @if($key==x) {
+          padding-left: $calc;
+          padding-right: $calc;
+        }
+        @else if ($key==y) {
+          padding-top: $calc;
+          padding-bottom: $calc;
+        }
+        @else {
+          padding-#{$value}: $calc;
+        }
+      }
+      .m#{$key}-#{$i} {
+        @if($key==x) {
+          margin-left: $calc;
+          margin-right: $calc;
+        }
+        @else if ($key==y) {
+          margin-top: $calc;
+          margin-bottom: $calc;
+        }
+        @else {
+          margin-#{$value}: $calc;
+        }
+      }
+    }
+  }

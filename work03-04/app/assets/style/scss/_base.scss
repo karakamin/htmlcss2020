@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: $font-family-base;
+  line-height: $line-height-base;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eecdcc;
+}
+
+input:focus::placeholder {
+  color: #aa0601;
+}
+
+textarea:focus::placeholder {
+  color: #aa0601;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-md {
+  max-width: 730px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@each $key, $value in $theme-colors {
+  .text-#{$key} {
+    color: $value;
+  }
+}
+@each $key, $value in $theme-colors {
+  .bg-#{$key} {
+    background-color: $value;
+  }
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+
+  // No need to set list-style: none; since .list-group-item is block level
+  padding-left: 0; // reset padding because ul and ol
+  margin-bottom: 0;
+}
+
+.link-white {
+  color: #fff;
+}
+
+.h-100 {
+  height: 100px;
+}
+.h-304 {
+  height: 304px;
+}
+
+.input-style {
+  width: 100%;
+  padding: 14px 0px 14px 16px;
+  border: 1px solid #ca8a88;
+  background: #aa06010d;
+  opacity: 0.7;
+  font-size: 16px;
+}
