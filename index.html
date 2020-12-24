@@ -1,10 +1,28 @@
----
-title: 第三與第四週-眼鏡電商
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="zh-Hant">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>第三與第四週-眼鏡電商</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="d-flex justify-content-between align-items-center h-100 bg-primary text-white pl-10 pr-6">
+    <div>
+      <a href="index.html" ><img src="./assets/images/logo.png" alt="logo"></a>
+    </div>
+  <ul class="d-flex justify-content-end h6">
+      <li class="pr-16"><a class="text-white" href="#">系列鏡框</a></li>
+      <li class="pr-16"><a class="text-white" href="#"></a>門市據點</li>
+      <li class="pr-16"><a class="text-white" href="#"></a>部落格</li>
+      <li class="pr-16"><a class="text-white" href="gs_qa.html">常見問題</a></li>
+    </ul>
+  </header>
+
+  
 <div class="d-flex align-items-between text-secondary header">
   <div class="container">
     <h1 class="text-right">
@@ -138,3 +156,54 @@ current: index
     </form>
   </div>
 </div>
+
+  <footer class="d-flex bg-primary text-white py-10">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-baseline">
+        <ul class="d-flex pb-8">
+          <li class="mr-6"><a class="text-white" href="index.html">首頁</a></li>
+          <li class="mx-6"><a class="text-white" href="#">系列鏡框</a></li>
+          <li class="mx-6"><a class="text-white" href="#">門市據點</a></li>
+          <li class="mx-6"><a class="text-white" href="#">部落格</a></li>
+          <li class="ml-6"><a class="text-white" href="gs_qa.html">常見問題</a></li>
+        </ul>
+        <ul class="d-flex">
+          <li class="pr-8">
+            <a href="#"><img src="./assets/images/ic_social_fb.svg" alt="FaceBook"></a>
+          </li>
+          <li class="pr-8">
+            <a href="#"><img src="./assets/images/ic_social_ig.svg" alt="IG"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./assets/images/ic_social_line.svg" alt="LINE"></a>
+          </li>
+        </ul>
+      </div>
+      <ul class="font-36">
+        <li class="d-flex pb-4">
+          <a class="text-white"href="tel:+0800000000">
+            <img class="pr-2" src="./assets/images/local_phone-24px.svg" alt="phone">0800-000-000</a>
+        </li>
+        <li class="d-flex border-bottom pb-5">
+          <a class="text-white" href="mailto:glasses@business.com">
+            <img class="pr-2" src="./assets/images/mail_outline-24px.svg" alt="mail">glasses@business.com</a>
+        </li>
+      </ul>
+      <div class="d-flex justify-content-between align-items-baseline pt-6">
+          <div class="d-flex align-items-baseline p-size">
+            <a href="index.html"><img src="./assets/images/logo.png" alt="Logo"></a>
+            <span class="ml-9">Copyright © 2020 Glasses.All rights reserved.</span>
+          </div>
+          <ul class="d-flex justify-content-center p-size">
+          <li class="pr-14"><a href="#" class="text-white">隱私權政策</a></li>
+          <li class="pl-1"><a href="#" class="text-white">服務條款</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
